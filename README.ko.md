@@ -1,4 +1,7 @@
 LAST-LIGHT — 상시 점등 표준 표지, 소방 단자함 내·외부, 스마트 레이스웨이 및 다중감각 음향·웨어러블 인프라를 활용한 보조 안내 시스템 기술 명세서 (Ver. 3.7 최종 개정안)
+
+License: See LICENSE file (CC BY 4.0 & DPL v1.0)
+
  * 공식 문서 분류: 방어적 선행기술 공개 백서 (Defensive Publication / Prior Art)
  * 최초 구상일: 2026-07-30 / 최종 개정일 (v3.7): 2026-08-31
  * 원천 지적재산권(IP) 보유자: 소마모아 (soma-moa / 구상자: deundeuni)
