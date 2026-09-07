@@ -1,5 +1,5 @@
 > **다국어 공개 안내:** 본 문서는 동일 내용의 한/영 이중 공개 문서입니다. v4.2 2026-09-07 (영문 버전: [README.md](README.md))  
-> **Original Authority Notice:** 본 기술 명세의 법적·공학적 판단 최상위 기준은 한글 원본(`README.ko.md`)에 귀속되며, 영문본은 보조 참조용으로만 기능한다. (PHILOSOPHY.ko.md is authoritative original)
+> **Original Authority Notice:** 본 기술 명세의 법적·공학적 판단 최상위 기준은 한글 원본(`README.ko.md`)에 귀속되며, 영문본은 보조 참조용으로만 기능한다. (`README.ko.md` is authoritative original)
 
 # LAST-LIGHT — 상시 점등 표준 표지, 소방 단자함 내·외부, 스마트 레이스웨이, 우주·궤도 모듈 피난 인프라 및 다중감각 음향·함께생존 진동·분산 블랙박스 인프라를 활용한 보조 안내 시스템 기술 명세서 (Ver. 4.2 최종 완성본)
 
