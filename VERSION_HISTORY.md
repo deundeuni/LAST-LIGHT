@@ -1,86 +1,67 @@
-# LAST-LIGHT — Auxiliary Guidance System Technical Specification Revision History (Ver. 3.9 Final)
+# LAST-LIGHT — Auxiliary Guidance System Technical Specification Version History & Revision Control Register (Ver. 4.2 Final Revised)
 
-* Document Classification: Technical Specification Revision History & Version Control Record
-* Original IP Holder: soma-moa (`soma-moa` / Sole Inventor: `deundeuni`)
-* Primary Repository: github.com/soma-moa | Official Domain: somamoa.ai.kr
-* Initial Conception Date: July 30, 2026 / Final Revision Date: September 1, 2026
-* Original Language Authority Notice: The Korean original text of this specification constitutes the legally and technically binding authority (`Original Authority`). English and other translations are provided for reference purposes only. In the event of any linguistic, semantic, or legal discrepancy, the Korean original text shall take strict precedence.
-
----
-
-### 1. Itemized Version History & Technical Revision Records
-
-* **v1.0 (2026-07-30) — [Initial Concept]** Initial formulation of visual anchor concept utilizing standard ISO 7010 illuminated signs and auxiliary guidance framework.
-  * Established the foundational concept of utilizing wall-mounted exit signs (ISO 7010 pictograms) as absolute zero-point calibration references (ANCHOR) for mobile devices and vision sensors.
-
-* **v1.5 (2026-08-01) — [Structural Refinement]** Restructuring of dual-purpose public/commercial emergency wayfinding specification framework.
-  * Refined integration pathways with statutory fire safety infrastructure and established basic technical specification layout.
-
-* **v2.0 (2026-08-30) — [Full-Stack Integration]** Restoration of field-driven motivation and full-stack 3-Tier applied architecture integration.
-  * Formulated the 3-Tier applied architecture (L0-L1-L2) corresponding to survival hardware chiplet/APU specifications v2.6.
-
-* **v2.5 (2026-08-30) — [Infrastructure Expansion]** Integration of fixed-interval multi-spectrum raceway and cable tray optical anchor specifications.
-  * Added reception specifications for multi-spectrum optical modules (visible green / firefighter IR, fluorescent, white) mounted along ceiling raceways in underground facilities.
-
-* **v2.6 (2026-08-30) — [Nomenclature Standardization]** Replacement of metaphorical terms with standardized technical nomenclature.
-  * Standardized Section 4 nomenclature as "Dynamic Resource Management & Defensive Safety Control".
-
-* **v2.7 (2026-08-30) — [Algorithm Specification]** Explicit definition of ESTIMATION algorithm Input/Process/Output (IPO) structures.
-  * Defined clear IPO data flows to guarantee technical reproducibility while reserving precise neural weights as confidential trade secrets.
-
-* **v2.8 (2026-08-30) — [Philosophy & Timestamp]** Formal confirmation and recording of initial conception date (July 30, 2026) and integration of life-safety philosophy.
-  * Formally confirmed and recorded the initial conception date (2026-07-30) and integrated the humanity-driven field motivation statement.
-
-* **v2.9 (2026-08-30) — [AI Governance]** Addition of abstract master AI definitions and edge AI / sLLM deployment rationale under communications blackout.
-  * Established the technical necessity of edge-native AI engines (sLLM, Small Vision-Audio Models, NPU firmware) for offline operation during infrastructure paralysis.
-
-* **v3.0 (2026-08-30) — [Resilience Enhancement]** Integration of self-healing multi-mesh communication and zero-downtime fail-over mechanisms.
-  * Established P2P N-mesh topologies capable of isolating destroyed nodes within 100ms and autonomously rerouting compute/broadcasting tasks.
-
-* **v3.1 (2026-08-30) — [Prior Research & AI Disclosure]** Addition of independent prior research acknowledgement (0.8) and AI assistance disclosure (Appendix C).
-  * Incorporated humble acknowledgement of potential independent prior research and provided transparent disclosure regarding AI-assisted drafting (Meta AI, Gemini, Claude).
-
-* **v3.2 (2026-08-30) — [Power Specification]** Mandatory emergency power integration and comprehensive operating duration ranges (3.C).
-  * Specified mandatory integration with building emergency power (UPS/generators) and defined operational windows ranging from 2 hours up to 24+ hours.
-
-* **v3.3 (2026-08-30) — [Master Reference Baseline]** Master Reference Framework declaration for sensor fusion (0.2) and anti-circumvention provisions (7.3).
-  * Declared ANCHOR visual/optical calibration as the master zero-point reference over all secondary sensors (IMU, LiDAR, gyro) and strengthened anti-circumvention language.
-
-* **v3.4 (2026-08-30) — [Fire Cabinet Anchors]** Integration of fire hose cabinet, alarm box, and control panel status indicators as spatial anchors.
-  * Established building fire cabinet surface status lights, outer geometry, and internal protective housings as absolute visual spatial anchors.
-
-* **v3.5 (2026-08-30) — [3D Anchor Matrix]** Integration of high-durability internal chamber modules within fire cabinets.
-  * Specified 3D optical/RF/acoustic anchor placement utilizing fire-resistant internal protective chambers of fire cabinets.
-
-* **v3.6 (2026-08-30) — [Multi-Sensory Expansion]** Full integration of directional acoustic anchors, microphone arrays, and bone-conduction haptic interfaces.
-  * Added directional spatial audio, DOA (Direction of Arrival) sound processing, and bone-conduction tactile guidance for zero-visibility blackout conditions.
-
-* **v3.7 (2026-08-31) — [Open Interoperability]** Integration of wearable receiver connectivity, normal-state privacy isolation, rapid 3s onboarding, and legal disclaimers.
-  * Integrated personal open-ear bone-conduction headset connectivity (3.E), normal-state privacy isolation, 3-second passive QR onboarding (3.F), and multi-sensory guidance concepts (3.G).
-
-* **v3.8 (2026-08-31) — [Co-Survival Haptic Paradigm]** Adoption of Co-Survival Haptic Receivers for 100dB+ siren environments and standard haptic compass protocol table.
-  * Transitioned interface standard to speakerless 'Co-Survival Haptic Receivers' to overcome deafening 100dB siren noise and prevent private misuse. Defined standardized left/right tactile haptic pulse patterns (3.E).
-
-* **v3.9 (2026-09-01) — [Final / Distributed Blackbox & AI Self-Evolution]** Integration of distributed heat-resistant local blackbox logs (3.H) and telemetry log-driven AI model self-evolution.
-  * Embedded non-volatile heat-resistant flash memory telemetry logging modules within fire cabinets to maintain 1–2 hour ring-buffer logs during disaster events.
-  * Established post-disaster forensics (liability proof) and AI training feedback loops to analyze human evacuation bottlenecks and dynamically optimize real-time rerouting algorithms.
+* **Document Classification:** Technical Specification Revision Control & Chronological History Register
+* **Original Intellectual Property (IP) Holder:** soma-moa (Architect: deundeuni)
+* **Primary Repository:** github.com/soma-moa | **Canonical Gateway:** somamoa.ai.kr
+* **Initial Conception Date:** 2026-07-30 / **Final Revision Date (v4.2):** 2026-09-07
+* **Authoritative Original Language Notice:** The supreme authority for legal and engineering interpretation of this document belongs to the Korean original (`HISTORY.ko.md`). The English version serves as an auxiliary reference only. (`HISTORY.ko.md` is authoritative original)
+* **Document Hierarchy Notice:** This document functions as the detailed chronological record corresponding to Section 1 (Version History) of the master whitepaper (`README.ko.md`), completely synchronized 1:1 with the master milestone structure.
 
 ---
 
-### 2. Revision Summary & Revision Categories
+## 1. Milestone Revision History
 
-* **Total Revisions:** 17 Iterations (v1.0 ~ v3.9)
-* **Primary Categories:**
-  * Infrastructure & Sensor Fusion Expansion: v1.0, v2.5, v3.3, v3.4, v3.5, v3.6, v3.9
-  * System Resilience & Distributed Telemetry: v2.0, v3.0, v3.2, v3.9
-  * Artificial Intelligence & Model Self-Evolution: v2.7, v2.9, v3.1, v3.9
-  * User Interface & Haptic Receivers: v3.6, v3.7, v3.8
-  * Legal Defense Framework & Anti-Circumvention: v2.6, v2.8, v3.1, v3.7, v3.8, v3.9
+* **v1.0 (2026-07-30) — [Initial Conception] Visual Anchoring Concept Based on ISO 7010 Signage and Initial Guidance Baseline**
+  * Formulated the core concept of utilizing exit signage (ISO 7010) as visual positioning reference points (ANCHORs) for mobile/vision cameras, establishing public/commercial integration frameworks.
+
+* **v2.0 ~ v3.0 (2026-08-30) — [Full-Stack & Infrastructure Integration] 3-Tier Layer Architecture, Raceway Anchoring, Edge AI & Self-Healing Multi-Mesh Integration**
+  * Integrated the 3-Tier applied framework (L0-L1-L2) aligned with `chiplet-apu v2.6` and standardized defensive safety control terminology.
+  * Integrated multi-wavelength (visible light / IR-fluorescent white) raceway optical nodes and specified input/process/output relations for the ESTIMATION algorithm.
+  * Formally recorded initial conception date (2026-07-30), specified on-device edge AI (sLLM/Edge AI) for network blackout resilience, and established 100ms P2P N-Mesh zero-downtime fail-over mechanisms.
+
+* **v3.1 ~ v3.6 (2026-08-30) — [Reference Anchors & Multisensory Expansion] Independent Prior Research Acknowledgment, Sensor Fusion Master Reference, Fire Box Anchors & Spatial Audio Integration**
+  * Added independent prior research acknowledgment (0.8) and transparent AI operational roles (Appendix C).
+  * Defined emergency power integration requirements (operating windows: <2h to 24h+) and declared master reference zero-point calibration standards for Gyro/IMU/LiDAR sensor fusion.
+  * Established 3D optical/RF/acoustic anchor arrays utilizing fire hydrant enclosures and fire-rated internal chambers across building levels.
+  * Integrated directional spatial audio, sound Direction of Arrival (DOA) estimation, and haptic orientation prompts for zero-visibility smoke environments.
+
+* **v3.7 (2026-08-31) — [Open Interoperability & Onboarding] Personal Wearable Integration, Idle-State Isolation, Rapid Onboarding & Legal Protection Framework**
+  * Fully integrated personal wearable sync (3.E), idle-state connection isolation with 3-second QR/auto-search emergency onboarding (3.F), and structural multisensory guidance concepts (3.G).
+  * Generalized proprietary brand/trademark citations and formalized comprehensive legal liability limitations.
+
+* **v3.8 (2026-08-31) — [Haptic Compass Paradigm] Co-Survival Haptic Receiver Protocol for 100dB Noise Environments**
+  * Introduced the "Co-Survival Haptic Receiver" tailored for 100dB siren environments, establishing speakerless public infrastructure deployment models.
+  * Specified the tactile "Standard Haptic Compass Protocol" (3.E) based on bilateral transducer placement.
+
+* **v3.9 (2026-09-01) — [Distributed Blackbox & AI Self-Evolution] Thermal-Protected Hydrant Blackbox & Log-Driven Route Self-Evolution**
+  * Incorporated "Distributed Heat-Resistant Local Blackbox Telemetry" (3.H) using flash memory ring buffers within fire-rated hydrant chambers.
+  * Established post-disaster forensics support and AI feedback learning pipelines to evaluate evacuee movement bottlenecks and evolve dynamic evacuation routes.
+
+* **v4.0 (2026-09-06) — [System Hierarchy Alignment] Cross-References with Parent Survival Architecture, APU Controller, Marine Armor & CWP Hardware Repositories**
+  * Applied cross-reference patches linking `ARCHITECTURE_STRATEGY v3.2.4`, `chiplet-apu v2.6`, `MAX-LIFE ICE-BELT v1.6`, and CWP hardware modules.
+
+* **v4.1 (2026-09-06) — [Space/Orbital Infrastructure Expansion] Space Station Module Guidance, Zero-Gravity Smoke Evacuation & Spacesuit Haptics**
+  * Extended 3D guidance to microgravity space station compartments, spacesuit inner lining haptic pads, smart rings/bands/footwear form factors, and pressure/electrical/piezoelectric stimulus mechanisms (0.2).
+
+* **v4.2 (2026-09-07) — [Technical/Legal Specification Enhancement & Single-Source History Unification] Timescale Clarification, Attorney Consultation Advisory & Single-Source Management**
+  * Clarified subsystem-level response timescales (0.1s network isolation vs. 0.1ms hardware APU E-Stop).
+  * Added attorney consultation advisory (Section 7) regarding DPL v1.0 licensing, Korean Patent Act Article 103 prior-use rights, and utility model filings.
+  * Unified version history references to establish this register as the single authoritative chronology, reinforced human architect (`deundeuni`) inventorship declarations in Appendix C, and finalized dual-language text alignment.
 
 ---
 
-### 3. Legal Authority & Governing Text
+## 2. Summary of Key Evolutionary Axes
 
-* **Original Language Authority:** The Korean original text of this revision history constitutes the sole original authority (`Original Authority`). In case of ambiguities in translated versions, the Korean original text governs.
-* **Prior Art Timestamp Effect:** The revision dates and itemized technical specifications herein serve as documented evidence of prior creation and public disclosure under Article 103 of the Korean Patent Act and 35 U.S.C. §273.
-*(※ Note: This version history is provided for descriptive reference. Exact commit timestamps are governed by platform metadata and GitHub repository history.)*
+* **Infrastructure, Sensor Fusion & Orbital Expansion:** Expanded from ISO 7010 exit signs to underground raceways, fire hydrant enclosures, microgravity orbital modules, and IVA/EVA spacesuit haptic linings.
+* **System Survivability & Blackbox Forensics:** Built 3-Tier applied architectures, P2P N-Mesh self-healing networks, emergency power interconnects, and distributed hydrant blackbox forensics.
+* **AI Governance & Self-Evolution:** Implemented on-device edge AI (sLLM/Edge AI), EKF/DOA drift correction, anti-hallucination validation, and blackbox log-driven route self-evolution.
+* **User Interface & Spacesuit Integration:** Established single-purpose Co-Survival Haptic Receivers for 100dB noise, standardized haptic compass protocols, and 3-second onboarding mechanics.
+* **Defensive Legal Framework & Prior-Use Rights:** Implemented DPL v1.0, Korean Patent Act Article 103 / 35 U.S.C. §273 prior-use rights, patent attorney consultation advisories, and explicit sole inventorship declarations.
+
+---
+
+## 3. Legal Authority & Original Text Supremacy
+
+* **Original Authority Clause:** The Korean version (`HISTORY.ko.md`) serves as the supreme authoritative original. In the event of translation ambiguities or conflicts, the Korean text prevails.
+* **Prior Art Timestamp Validity:** Revision dates and technical contents recorded herein serve as legal evidence for defensive prior art under Article 103 of the Korean Patent Act and 35 U.S.C. §273.
+*(※ Exact revision timestamps follow git commit metadata and platform repository logs).*
