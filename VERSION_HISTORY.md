@@ -44,10 +44,10 @@
   * Extended 3D guidance to microgravity space environments, defining spacesuit inner lining haptic pads, wearable form factors (rings, bracelets, footwear), and diverse tactile stimuli (pressure, electrical, piezoelectric).
 
 * **v4.2 (2026-09-07) — [Nomenclature Redefinition, Technical/Legal Refinement, and Document Unification] Official nomenclature redefinition, subsystem timescale separation, professional legal consultation guidance, and master repository alignment**
-  * **[Nomenclature Redefinition]** Officially redefined 'Co-Survival Haptic Receiver' to 'Co-Survival Bridge' to reflect expanded form factors and core philosophical purpose.
+  * **[Nomenclature Redefinition]** Officially redefined 'Co-Survival Haptic Receiver' to 'Co-Survival Bridge (Co-Survival Bridge)' to reflect expanded form factors and core philosophical purpose.
   * Defined explicit subsystem timescale separation (0.1s communication vs 0.1ms hardware APU E-Stop).
   * Added recommendations for professional patent attorney consultation regarding DPL licensing, Korean Patent Act Article 103 prior use defenses, and utility model filing strategies.
-  * Standardized section headers, unified terminology, and aligned the dual-track version history structure between the master specification and this revision history.
+  * Standardized section headers, unified terminology, and aligned the dual-track version history structure between the master specification (`README.ko.md`) and this revision history.
 
 ---
 
