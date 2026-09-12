@@ -69,7 +69,7 @@ This structural design was independently conceived and established by the author
 * **v4.1 (2026-09-06):** Space station orbital module, microgravity smoke diffusion evacuation, IVA/EVA spacesuit haptic compass linkage, and wearable form-factor/directional stimulus abstract rule patch applied.
 * **v4.2 (2026-09-07):** Nomenclature refined ("Co-Survival Bridge"); 2-tier title structured; communication path terms corrected in 3.D; privacy specs unified in 3.E/3.F; master hierarchy and sensor fusion closure consolidated.
 * **v4.3 ~ v4.7 (2026-09-09):** Extended to heterogeneous multi-devices, SLAM timescale refined, underground telecom (small cell/DAS) auxiliary integration and offline-first hierarchy established, fire-rated infrastructure non-obviousness logic applied, and regulatory grounds separated via cross-references.
-* **v4.8 (2026-09-09):** **[Specification of 'Structure First' Principle & chiplet-apu Sec 0.2 Cross-Reference]** Explicitly declared the spatial/topological 'Structure First' design principle in Section 0.2, which prioritizes existing physical structures (pictograms, hydrant boxes, raceways, etc.) over sensor placement. Reflected the cross-reference to the 'Structure over Capacity' philosophy of the master survival architecture `chiplet-apu` Section 0.2.
+* **v4.8 (2026-09-09):** **[Specification of 'Structure First' Principle & chiplet-apu Sec 0.2 Cross-Reference]** Explicitly declared the spatial/topological 'Structure First' design principle in Section 0.2, which prioritizes existing physical structures (pictograms, hydrant boxes, raceways, etc.) over sensor placement. Reflected the cross-reference to the 'Structure over Capacity' philosophy of the master survival architecture `chiplet-apu` Section 0.2. Standardized Appendix C AI disclosures into a generalized AI tools framework without specific corporate brand names.
 
 ---
 
@@ -245,11 +245,8 @@ Furthermore, wearers who gain directional certainty through haptic signals natur
 ---
 
 ## Appendix C: AI Assistance Disclosure & Tool Operational Rules
-* Original Architecture & Concepts: deundeuni (Human) — Sole Inventor, responsible for total system conception, field motivation, circuit combination design, and final engineering decisions.
-* Subordinate Drafting Tool: Meta AI — Used as an auxiliary tool for initial paragraph structuring and visual concept drafting.
-* Subordinate Structuring Tool: Gemini — Used as an auxiliary tool for white paper layout organization and terminology standardization.
-* Subordinate Review Tool: Claude — Used as an auxiliary tool for conversational context verification and defensive text refinement.
-* **Declaration of Intellectual Ownership:** All core technical architectures, haptic compass algorithms, circuit control logic, and legal defense structures within this white paper belong to the sole human inventor (deundeuni). AI models functioned strictly under explicit human instruction as auxiliary text formatting and editing tools.
+* **AI Assistance Disclosure —** All technical architectures, haptic logic, calculation formulas, and legal defense structures within this white paper belong strictly to the intellectual labor and field intuition of the sole human inventor (deundeuni). Artificial intelligence tools (AI models) were utilized strictly under the explicit direction of the inventor as auxiliary text editing, translation, and layout formatting tools (Auxiliary Text Editing Tools), and were not involved in the original technical ideation or invention process.
+* **Declaration of Intellectual Ownership:** All core technical architectures, haptic compass algorithms, circuit control logic, and legal defense structures within this white paper belong entirely to the sole human inventor (deundeuni).
 
 ---
 
